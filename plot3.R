@@ -1,5 +1,4 @@
 library (sqldf)
-library(datasets)
 
 Sys.setlocale("LC_ALL", "English")
 
