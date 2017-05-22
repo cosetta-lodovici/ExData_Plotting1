@@ -1,6 +1,8 @@
 library (sqldf)
 library(datasets)
 
+Sys.setlocale("LC_ALL", "English")
+
 # read data
 sourcefile <- "../household_power_consumption.txt"
 DF <- read.csv.sql(sourcefile,sep=";",sql="select * from file where Date in ('1/2/2007','2/2/2007')")
